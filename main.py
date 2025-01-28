@@ -9,6 +9,9 @@ if __name__=='__main__':
     
     visualize_data(df)
 
+
     print(f'The mean value for the charge left PERCENTAGE is {calculate_statistic('mean',df['Charge_Left_Percentage'])}')
+
+
 
     
