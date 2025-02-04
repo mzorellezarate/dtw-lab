@@ -30,4 +30,4 @@ RUN apt-get update && apt-get install -y docker-ce docker-ce-cli containerd.io
 WORKDIR /app
 
 # Set the default command (optional)
-CMD ["bash"]
+CMD ["bash"] 
